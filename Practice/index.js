@@ -1,5 +1,12 @@
-let a=1
 
-for(a; a<=19; a=a+1){
-    console.log(a)
-}~
+
+function calculate(age){
+    if(age>18){
+        console.log('youre an adult!')
+    }
+    else{
+        console.log('youre a kid')
+    }
+}
+
+calculate(17)
